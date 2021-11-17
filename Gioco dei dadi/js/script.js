@@ -13,7 +13,7 @@ if (userRandomNumber > computerRandomNumber){
 } else if (computerRandomNumber > userRandomNumber){
     atert ('Il computer ha vinto');
 } else {
-    alert ('L\'utente e il computer hanno pareggiato');
+    alert   ('L\'utente e il computer hanno pareggiato');
 }
 
 
