@@ -10,7 +10,9 @@ for (i=0 ; i < fakeEmailDatabase.length ; i++) {
     // stampa un messaggio appropriato sull’esito del controllo.
     let thisEmail = fakeEmailDatabase[i];
     if (userEmail === thisEmail){
-        console.log ('La tua email è nel database');
+        alert  ('La tua email è nel database');
+    } else {
+        alert  ('Mi dispiace, la tua email non è nel database');
     }
 }
 

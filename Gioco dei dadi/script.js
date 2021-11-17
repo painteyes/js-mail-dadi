@@ -9,11 +9,11 @@ console.log(computerRandomNumber);
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 if (userRandomNumber > computerRandomNumber){
-    console.log('L\'utente ha vinto');
+    alert ('L\'utente ha vinto');
 } else if (computerRandomNumber > userRandomNumber){
-    console.log('Il computer ha vinto');
+    atert ('Il computer ha vinto');
 } else {
-    console.log('L\'utente e il computer hanno pareggiato');
+    alert ('L\'utente e il computer hanno pareggiato');
 }
 
 
