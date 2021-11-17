@@ -11,19 +11,17 @@ for (let i=0 ; i < fakeEmailDatabase.length  ; i++) {
     
     const thisEmail = fakeEmailDatabase[i];
     
-    if (userEmail === thisEmail){
+    if (userEmail === thisEmail) {
         emailFound = true;
     }
-
-    console.log(emailFound);
 }
 
 // stampa un messaggio appropriato sull’esito del controllo.
-// if (emailFound) {
-//     alert  ('La tua email è nel database'); 
-// } else {
-//     alert  ('Mi dispiace, la tua email non è nel database');
-// }
+if (emailFound) {
+    alert  ('La tua email è nel database'); 
+} else {
+    alert  ('Mi dispiace, la tua email non è nel database');
+}
 
 
 
